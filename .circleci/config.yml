@@ -6,6 +6,8 @@ workflows:
     jobs:
       - cypress/run:
           store_artifacts: true
-                             - store_test_results:
-                             path: cypress/results
+            post-steps:
+                - store_test_results:
+                  path: cypress/results
+
 
