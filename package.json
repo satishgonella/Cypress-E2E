@@ -49,9 +49,7 @@
   },
   "author": "Satish Gonella",
   "license": "MIT",
-  "bugs": {
-
-  },
+  "bugs": {},
   "homepage": "https://github.com/satishgonella/Cypress-E2E.git#readme",
   "dependencies": {
     "npm-run-all": "^4.1.2",
