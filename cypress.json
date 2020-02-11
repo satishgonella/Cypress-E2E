@@ -6,10 +6,11 @@
     "URL": "https://reqres.in/"
   },
 
-  "reporter": "junit",
+  "reporter": "mochawesome",
   "reporterOptions": {
-    "mochaFile": "results/cypress-report.xml",
-    "toConsole": true
+  "overwrite": false,
+  "html": false,
+  "json": true
  }
 }
 
