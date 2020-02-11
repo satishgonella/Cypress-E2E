@@ -10,6 +10,10 @@
   "reporterOptions": {
   "overwrite": false,
   "html": false,
-  "json": true
+  "json": true,
+    "mochaFile": "results/cypress-report.xml",
+    "toConsole": true
  }
 }
+
+
