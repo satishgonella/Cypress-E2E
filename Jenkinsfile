@@ -25,7 +25,7 @@ pipeline {
 //         }
         stage('e2e Tests') {
             steps {
-                sh 'test:ci'
+                sh 'cypress run; npm run merge_reports; npm run generate_mochawesome_report'
             }
         }
         stage('Deploy') {
