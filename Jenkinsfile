@@ -13,16 +13,16 @@ pipeline {
                 sh 'npm i'
             }
         }
-//         stage('Build') {
-//             steps {
-//                 sh 'npm run build'
-//             }
-//         }
-//         stage('Unit Tests') {
-//             steps {
-//                 sh 'npm run test'
-//             }
-//         }
+        stage('Build') {
+            steps {
+                echo 'Building....'
+            }
+        }
+        stage('Unit Tests') {
+            steps {
+                echo 'Unit Tests....'
+            }
+        }
         stage('e2e Tests') {
             steps {
                 sh 'npx cypress run; npm run merge_reports; npm run generate_mochawesome_report'
@@ -34,10 +34,11 @@ pipeline {
             }
         }
 
-        post {
-            always {
-                junit 'results/cypress-report.xml'
-            }
-        }
     }
+
+     post {
+                always {
+                    junit 'results/cypress-report.xml'
+                }
+            }
 }
