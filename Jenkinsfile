@@ -36,9 +36,9 @@ pipeline {
 
     }
 
-     post {
-                always {
-                    junit 'results/cypress-report.xml'
-                }
-            }
+//      post {
+//                 always {
+//                     junit 'results/cypress-report.xml'
+//                 }
+//             }
 }
