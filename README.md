@@ -1,4 +1,4 @@
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=satishgonella_Cypress-E2E&metric=alert_status)](https://sonarcloud.io/dashboard?id=satishgonella_Cypress-E2E)
 ### Base framework with cypress - testing with api demo for https://reqres.in
 
 This is an example app used to showcase [Cypress.io](https://www.cypress.io/) testing. The application uses every API command in Cypress for demonstration purposes. Additionally this example will run on Circle CI.
