@@ -67,7 +67,7 @@
     "cucumber-pretty": "1.4.0",
     "cypress": "^3.8.3",
     "cypress-axe": "^0.5.3",
-    "cypress-cucumber-preprocessor": "1.11.0",
+    "cypress-cucumber-preprocessor": "1.19.2",
     "fs-extra": "8.1.0",
     "globby": "9.1.0",
     "graceful-fs": "4.2.2",
